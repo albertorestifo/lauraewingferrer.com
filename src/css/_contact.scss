@@ -1,0 +1,24 @@
+@import "variables";
+
+.Contact {
+  text-decoration: none;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  color: $color-gray;
+  font-size: 12px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover, &:focus {
+    color: $color-accent-primary;
+    text-decoration: underline
+  }
+}
+
+.Contact-icon {
+  margin-right: 8px;
+  opacity: .75;
+}

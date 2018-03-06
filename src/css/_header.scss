@@ -1,0 +1,32 @@
+@import "variables";
+@import "grid";
+
+.Header {
+  @include grid-container;
+
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.Header-logo {
+  color: $color-accent-primary;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Nav-link {
+  color: $color-black;
+  text-decoration: none;
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover, &:active {
+    text-decoration: underline;
+    color: $color-accent-secondary;
+  }
+}

@@ -1,13 +1,21 @@
+@import "variables";
+
 * {
   box-sizing: border-box;
 }
 
 body, html {
   height: 100%;
+  background-color: #F8F9FA;
 }
 
 body {
   font-family: 'Bitter', sans-serif;
   font-size: 16px;
-  color: #212529;
+  color: $color-black;
+  border-top: 4px solid $color-accent-primary;
 }
+
+@import "header";
+@import "intro";
+@import "contact";
