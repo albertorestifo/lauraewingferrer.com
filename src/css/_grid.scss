@@ -4,3 +4,17 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.Columns {
+  @include grid-container();
+  display: flex;
+}
+
+.Columns-left {
+  width: 50%;
+  padding-right: 10%;
+}
+
+.Columns-right {
+  width: 50%;
+}
