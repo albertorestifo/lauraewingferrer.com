@@ -1,0 +1,44 @@
+@import "grid";
+@import "variables";
+
+.Charcoal {
+  @include grid-container;
+
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.Charcoal-title {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  text-align: center;
+
+  span {
+    display: block;
+    font-size: 16px;
+    color: $color-gray;
+    margin-top: 12px;
+    line-height: 1.4;
+  }
+}
+
+.Charcoal-grid {
+  display: flex;
+  justify-content: center;
+
+  > a {
+    display: block;
+    line-height: 0;
+    height: 380px;
+    width: 300px;
+    position: relative;
+    margin: 0 16px;
+
+    > img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
+  }
+}

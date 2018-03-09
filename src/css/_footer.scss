@@ -1,0 +1,32 @@
+@import "grid";
+
+.Footer {
+  background-color: #868e96;
+  color: white;
+  padding: 40px 0;
+}
+
+.Footer-container {
+  @include grid-container;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Footer-logo {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Footer-contact {
+  display: flex;
+
+  .Contact-icon {
+    color: rgba(255, 255, 255, 0.55);
+  }
+
+  .Contact-text {
+    color: rgba(255, 255, 255, 0.7);
+  }
+}
