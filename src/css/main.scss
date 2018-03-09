@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   height: 100%;
-  background-color: #F8F9FA;
+  background-color: #f8f9fa;
 }
 
 body {
-  font-family: 'Bitter', sans-serif;
+  font-family: "Bitter", sans-serif;
   font-size: 16px;
   color: $color-black;
   border-top: 4px solid $color-accent-primary;
@@ -21,3 +22,4 @@ body {
 @import "contact";
 @import "storyboards";
 @import "story";
+@import "overlay";

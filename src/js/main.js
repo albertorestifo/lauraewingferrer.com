@@ -1,11 +1,17 @@
 import Video from "./Video";
+import Image from "./Image";
 
 function onClickVideo(event) {
   event.stopPropagation();
   event.preventDefault();
 
+  let target = event.target;
+  while (!target.href) {
+    target = target.parentNode;
+  }
+
   // Create the modal with the video
-  const video = new Video(event.target.href);
+  const video = new Video(target.href);
 
   video.show();
 }
@@ -14,10 +20,14 @@ function onClickThumbnail(event) {
   event.stopPropagation();
   event.preventDefault();
 
-  const url = event.target.href || event.target.parentNode.href;
+  let target = event.target;
+  while (!target.href) {
+    target = target.parentNode;
+  }
 
-  // Create the modal with the image
-  console.log(url);
+  const image = new Image(target.href);
+
+  image.show();
 }
 
 document.addEventListener(

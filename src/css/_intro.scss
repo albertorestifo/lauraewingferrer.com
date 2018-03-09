@@ -32,11 +32,11 @@
 
 .Intro-picture {
   flex: 0 0 250px;
-  border-radius: 50%;
   overflow: hidden;
   width: 250px;
   height: 250px;
   position: relative;
+  clip-path: circle(50%);
 
   > img {
     position: absolute;
