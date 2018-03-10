@@ -3729,6 +3729,10 @@ sass-graph@^2.2.4:
     scss-tokenizer "^0.2.3"
     yargs "^7.0.0"
 
+sass-mediaqueries@^1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/sass-mediaqueries/-/sass-mediaqueries-1.6.1.tgz#53fe4a3fd481d104cf6779df6f264e735826a78b"
+
 sax@~1.2.1:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"

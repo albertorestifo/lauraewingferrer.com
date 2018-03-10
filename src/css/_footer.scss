@@ -12,11 +12,19 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @include max-screen(760px) {
+    flex-flow: column nowrap;
+  }
 }
 
 .Footer-logo {
   font-size: 16px;
   font-weight: 700;
+
+  @include max-screen(760px) {
+    margin-bottom: 25px;
+  }
 }
 
 .Footer-contact {

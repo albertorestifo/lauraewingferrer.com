@@ -5,6 +5,18 @@
 
   > .Columns {
     margin-top: 80px;
+
+    @include max-screen(760px) {
+      margin-top: 0;
+    }
+  }
+
+  @include max-screen(760px) {
+    padding-bottom: 50px;
+
+    .Storyboards-intro {
+      margin-top: 35px;
+    }
   }
 }
 
@@ -31,5 +43,9 @@
       max-width: 100%;
       max-height: 100%;
     }
+  }
+
+  @include max-screen(760px) {
+    font-size: 10px;
   }
 }

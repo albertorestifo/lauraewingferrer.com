@@ -5,12 +5,20 @@
   @include grid-container;
   margin-top: 30px;
   margin-bottom: 80px;
+
+  @include max-screen(760px) {
+    margin-bottom: 50px;
+  }
 }
 
 .Intro-content {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @include max-screen(760px) {
+    flex-flow: column nowrap;
+  }
 }
 
 .Intro-text {
@@ -23,11 +31,26 @@
     line-height: 1.4;
     margin: 0;
   }
+
+  @include max-screen(760px) {
+    order: 2;
+    max-width: unset;
+    margin-top: 20px;
+    margin-right: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+
+    > h1 {
+      font-size: 24px;
+      text-align: center;
+    }
+  }
 }
 
 .Intro-highlight {
   font-weight: 600;
-  color: $color-accent-secondary;
+  color: $color-accent-primary;
 }
 
 .Intro-picture {
@@ -43,6 +66,16 @@
     top: 0;
     left: 0;
     width: 250px;
+  }
+
+  @include max-screen(760px) {
+    width: 150px;
+    height: 150px;
+    flex: 0 0 150px;
+
+    > img {
+      width: 150px;
+    }
   }
 }
 

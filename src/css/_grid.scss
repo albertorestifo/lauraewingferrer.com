@@ -8,13 +8,26 @@
 .Columns {
   @include grid-container();
   display: flex;
+
+  @include max-screen(760px) {
+    flex-flow: column nowrap;
+  }
 }
 
 .Columns-left {
   width: 50%;
   padding-right: 10%;
+
+  @include max-screen(760px) {
+    padding-right: 0;
+    width: 100%;
+  }
 }
 
 .Columns-right {
   width: 50%;
+
+  @include max-screen(760px) {
+    width: 100%;
+  }
 }
