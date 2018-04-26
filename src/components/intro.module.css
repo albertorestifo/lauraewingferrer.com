@@ -1,0 +1,55 @@
+.container {
+  /* background-color: #6eb0e9; */
+}
+
+.backgroundHillFar {
+  position: absolute;
+  top: 20%;
+  width: 45%;
+  right: 0;
+}
+
+.backgroundHillMedium {
+  position: absolute;
+  top: 12%;
+  width: 100%;
+  left: 0;
+  z-index: 2;
+}
+
+.backgroundHillClose {
+  position: absolute;
+  z-index: 3;
+  top: 39%;
+  width: 100%;
+}
+
+.ground {
+  position: absolute;
+  z-index: 4;
+  top: 72%;
+  left: 0;
+  width: 100%;
+}
+
+.backgroundRock {
+  position: absolute;
+  z-index: 5;
+  top: 65%;
+  width: 87%;
+  right: 0;
+}
+
+.mainRock {
+  position: absolute;
+  z-index: 6;
+  width: 100%;
+  top: 45%;
+}
+
+.frontRock {
+  position: absolute;
+  z-index: 7;
+  width: 100%;
+  top: 113%;
+}
