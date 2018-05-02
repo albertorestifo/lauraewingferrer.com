@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "d3-scale": "^2.0.0",
     "normalize.css": "^8.0.0",
+    "pixi.js": "^4.7.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-hot-loader": "^4.1.2",
@@ -17,10 +19,18 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "babel-eslint": "^7.2.3",
+    "eslint": "^4.1.1",
     "eslint-config-prettier": "^2.9.0",
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
     "prettier": "^1.12.1",
     "react-app-rewired": "^1.5.2",
-    "react-snap": "^1.12.2"
+    "react-snap": "^1.12.2",
+    "responsive-loader": "^1.1.0",
+    "sharp": "^0.20.2"
   }
 }
