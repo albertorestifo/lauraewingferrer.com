@@ -1,0 +1,89 @@
+.drawing {
+  width: 100vw;
+  padding-bottom: 82%;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: #6eb0e9;
+
+  > .layer-1 {
+    position: absolute;
+    top: 1%;
+    left: 0;
+    right: 0;
+    height: 37%;
+    background-image: url('../img/drawing/layer-1.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+  }
+
+  > .layer-2 {
+    position: absolute;
+    top: 19%;
+    left: 0;
+    right: 0;
+    height: 62%;
+    background-image: url('../img/drawing/layer-2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+  }
+
+  > .layer-3 {
+    position: absolute;
+    top: 36%;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background-image: url('../img/drawing/layer-3.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+  }
+
+  > .layer-4 {
+    position: absolute;
+    top: 17%;
+    left: 0;
+    right: 0;
+    height: 81%;
+    background-image: url('../img/drawing/layer-4.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+  }
+
+  > .layer-5 {
+    position: absolute;
+    top: 49%;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background-image: url('../img/drawing/layer-5.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+  }
+
+  > .layer-6 {
+    position: absolute;
+    top: 64%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img/drawing/layer-6.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top center;
+  }
+
+  > .layer-7 {
+    position: absolute;
+    top: 89%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #221500;
+  }
+}
