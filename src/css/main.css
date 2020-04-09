@@ -5,10 +5,32 @@
 @tailwind utilities;
 
 body {
-  font-family: "Barlow Semi Condensed", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .home-illustration {
   background: #5d986d;
   background: linear-gradient(45deg, #5d986d, #bfdb81);
+}
+
+.gallery > div {
+  @apply shadow-xl;
+
+  padding-bottom: 100%;
+  position: relative;
+}
+
+.gallery img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gallery > .row-span-2 {
+  padding-bottom: 150%;
+}
+
+.gallery > .col-span-2 {
+  padding-bottom: 50%;
 }
