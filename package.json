@@ -1,9 +1,17 @@
 {
   "name": "lauraewingferrer.com",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.html",
   "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html"
+  },
   "devDependencies": {
-    "node-sass": "^4.7.2"
+    "autoprefixer": "^9.7.6",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "tailwindcss": "^1.2.0"
   }
 }

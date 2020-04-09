@@ -1,0 +1,14 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.home-illustration {
+  background: #5d986d;
+  background: linear-gradient(45deg, #5d986d, #bfdb81);
+}
