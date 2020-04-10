@@ -18,6 +18,8 @@
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
       rel="stylesheet"
     />
+
+    <script src="./main.ts" defer></script>
   </head>
   <body class="text-gray-900">
     <!----------------------------------------------------------------------->
@@ -76,84 +78,119 @@
         Illustrations and character designs
       </p>
 
-      <div class="gallery mt-8 grid grid-cols-1 md:grid-cols-4 gap-4">
+      <div
+        class="gallery mt-8 grid grid-cols-1 md:grid-cols-4 gap-4 js-gallery"
+      >
         <div class="row-span-2">
-          <img
-            src="./img/gallery/fruit.jpg"
-            alt="Fruit party, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/fruit.jpg">
+            <img
+              src="./img/gallery/fruit.jpg"
+              alt="Fruit party, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="">
-          <img
-            src="./img/gallery/friki.jpg"
-            alt="Hacker sitting at the computer, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/friki.jpg">
+            <img
+              src="./img/gallery/friki.jpg"
+              alt="Hacker sitting at the computer, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="">
-          <img
-            src="./img/gallery/washing up.jpg"
-            alt="Washing up, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/washing up.jpg">
+            <img
+              src="./img/gallery/washing up.jpg"
+              alt="Washing up, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="">
-          <img
-            src="./img/gallery/siluette.jpg"
-            alt="Silhouette, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/siluette.jpg">
+            <img
+              src="./img/gallery/siluette.jpg"
+              alt="Silhouette, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="col-span-2">
-          <img
-            src="./img/gallery/expressions.jpg"
-            alt="Expressions, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/expressions.jpg">
+            <img
+              src="./img/gallery/expressions.jpg"
+              alt="Expressions, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="row-span-2">
-          <img
-            src="./img/gallery/westworld square.jpg"
-            alt="Cowboy sitting at the bar, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/westworld square.jpg">
+            <img
+              src="./img/gallery/westworld square.jpg"
+              alt="Cowboy sitting at the bar, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="">
-          <img
-            src="./img/gallery/tea time.jpg"
-            alt="Tea time, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/tea time.jpg">
+            <img
+              src="./img/gallery/tea time.jpg"
+              alt="Tea time, an illustration by Laura Ewing Ferrer"
+          /></a>
         </div>
         <div class="col-span-2">
-          <img
-            src="./img/gallery/outlander_soldier.jpg"
-            alt="Outlander, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/outlander_soldier.jpg">
+            <img
+              src="./img/gallery/outlander_soldier.jpg"
+              alt="Outlander, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="col-span-2">
-          <img
-            src="./img/gallery/smoke.jpg"
-            alt="Running trough the smoke, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/smoke.jpg">
+            <img
+              src="./img/gallery/smoke.jpg"
+              alt="Running trough the smoke, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="">
-          <img
-            src="./img/gallery/surfer.jpg"
-            alt="Surfer, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/surfer.jpg">
+            <img
+              src="./img/gallery/surfer.jpg"
+              alt="Surfer, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="">
-          <img
-            src="./img/gallery/bird.jpg"
-            alt="Bird, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/bird.jpg">
+            <img
+              src="./img/gallery/bird.jpg"
+              alt="Bird, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="">
-          <img
-            src="./img/gallery/roger.jpg"
-            alt="Roger, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/roger.jpg">
+            <img
+              src="./img/gallery/roger.jpg"
+              alt="Roger, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
         <div class="">
-          <img
-            src="./img/gallery/doodle.jpg"
-            alt="Laura dooling, an illustration by Laura Ewing Ferrer"
-          />
+          <a href="./img/gallery/doodle.jpg">
+            <img
+              src="./img/gallery/doodle.jpg"
+              alt="Laura dooling, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
+        </div>
+        <div class="col-span-2">
+          <a href="./img/gallery/movie set.jpg">
+            <img
+              src="./img/gallery/movie set.jpg"
+              alt="Movie set, an illustration by Laura Ewing Ferrer"
+            />
+          </a>
         </div>
       </div>
 
@@ -211,6 +248,23 @@
           Contact me
         </h1>
       </footer>
+    </div>
+
+    <div
+      id="modal-container"
+      class="fixed top-0 left-0 w-full h-full hidden flex justify-center items-center p-4 flex-col"
+      style="background-color: rgba(0, 0, 0, 0.75);"
+      hidden
+    >
+      <div class="shadow-xl">
+        <img id="modal-image" style="max-height: 90vh;" />
+      </div>
+      <button
+        id="modal-close"
+        class="text-white font-bold text-md top-0 right-0 p-4"
+      >
+        ✖ Click anywhere to close
+      </button>
     </div>
   </body>
 </html>
