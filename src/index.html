@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Laura Ewings Feerer – Illustrator and Charachter designer</title>
+    <title>Laura Ewing Ferrer – Illustrator and Character designer</title>
     <meta
       name="description"
       content="Laura Ewing Feerer is an illustrator specialized in character design"
@@ -26,7 +26,10 @@
     <!-- HOME LOGO                                                         -->
     <!----------------------------------------------------------------------->
     <div class="home-illustration">
-      <dib class="container mx-auto flex items-end justify-center">
+      <dib
+        class="container mx-auto flex items-end justify-center"
+        style="max-height: 85vh;"
+      >
         <div class="pb-4 pl-6 flex-1 md:pb-16 md:max-w-md md:pl-16">
           <img
             class="ml-auto"
@@ -48,7 +51,7 @@
       </dib>
     </div>
 
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-4 md:px-12">
       <!----------------------------------------------------------------------->
       <!-- NAVIGATION                                                        -->
       <!----------------------------------------------------------------------->
@@ -71,15 +74,24 @@
       <!----------------------------------------------------------------------->
       <!-- ARTWORK                                                           -->
       <!----------------------------------------------------------------------->
-      <h1 id="artwork" class="mt-6 text-5xl font-bold text-teal-600">
+      <h1 id="artwork" class="mt-6 text-4xl font-bold text-teal-600">
         Artwork
       </h1>
-      <p class="leading-tight text-xl text-gray-700">
-        Illustrations and character designs
-      </p>
+      <div class="leading-tight text-lg text-gray-700 mt-2 max-w-xl">
+        <p>
+          I’m an illustrator and storyboarder based in Madrid. I studied fine
+          art at Florence Academy of Art and went on to get a masters in
+          storyboarding at Lightbox academy.
+        </p>
+        <p class="mt-4">
+          Since then I have worked in-house at Smile and Learn and gone on to
+          work as a freelance artist for various documentaries, pilot series and
+          publishing houses.
+        </p>
+      </div>
 
       <div
-        class="gallery mt-8 grid grid-cols-1 md:grid-cols-4 gap-4 js-gallery"
+        class="gallery mt-12 grid grid-cols-1 md:grid-cols-4 gap-4 js-gallery"
       >
         <div class="row-span-2">
           <a href="./img/gallery/fruit.jpg">
@@ -197,14 +209,11 @@
       <!----------------------------------------------------------------------->
       <!-- STORYBOARDS                                                       -->
       <!----------------------------------------------------------------------->
-      <h1 id="storyboards" class="mt-20 text-5xl font-bold text-teal-600">
+      <h1 id="storyboards" class="mt-12 text-4xl font-bold text-teal-600">
         Storyboards
       </h1>
-      <p class="leading-tight text-xl text-gray-700">
-        I've worked on several storyboards
-      </p>
 
-      <div class="mt-10">
+      <div class="mt-8">
         <div
           class="shadow-xl bg-white rounded-md overflow-hidden lg:grid grid-cols-5"
         >
@@ -267,45 +276,66 @@
           </div>
         </div>
       </div>
+
+      <div class="grid grid-cols-2 mt-16">
+        <div class="md:ml-12 relative mr-8" style="top: 14px;">
+          <img
+            class="w-full"
+            src="./img/laura.png"
+            alt="Laura sipping tea"
+            style="max-width: 350px;"
+          />
+        </div>
+        <div class="flex justify-center flex-col footer-text">
+          <h1 id="contact" class="text-lg md:text-4xl font-bold">
+            Contact me
+          </h1>
+          <p class="text-md pb-4 md:text-lg text-gray-700">
+            For any inquires please feel free to contact me. You can
+            <a class="underline" href="mailto:le.lauraewing@gmail.com"
+              >e-mail me</a
+            >
+            or follow me on instagram or twitter.
+          </p>
+        </div>
       </div>
     </div>
 
-    <footer class="mt-16 bg-teal-800">
-      <div class="container mx-auto px-4 py-8 grid grid-cols-2">
-        <div class="mr-6">
-          <h1 id="contact" class="text-2xl font-bold text-white">
-            Contact me
-          </h1>
-          <p class="text-md text-white text-lg">
-            For inquires, you can
-            <a href="mailto:le.lauraewing@gmail.com">e-mail me</a>
-          </p>
-        </div>
-        <div class="flex justify-between">
-          <a href="mailto:le.lauraewing@gmail.com">
-            <img class="h-32" src="./img/mail.png" alt="Send me an e-mail" />
-          </a>
-          <a href="https://www.instagram.com/lauraewingferrer/">
-            <img
-              class="h-32"
-              src="./img/instagram.png"
-              alt="Follow me on Instagram"
-            />
-          </a>
-          <a href="https://twitter.com/LauraEwF">
-            <img
-              class="h-32"
-              src="./img/twitter.png"
-              alt="Follow me on Twitter"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/laura-ewing-ferrer-921b10128/">
-            <img
-              class="h-32"
-              src="./img/linked_in.png"
-              alt="Add me on LinkedIn"
-            />
-          </a>
+    <footer class="bg-teal-800 md:mt-0">
+      <div class="container mx-auto px-4 md:px-12 py-8 relative">
+        <div class="grid grid-cols-2">
+          <div
+            class="flex justify-between col-span-2 lg:col-start-2 lg:col-span-1 sm:pt-2"
+          >
+            <a href="mailto:le.lauraewing@gmail.com">
+              <img
+                class="h-24 md:h-32"
+                src="./img/mail.png"
+                alt="Send me an e-mail"
+              />
+            </a>
+            <a href="https://www.instagram.com/lauraewingferrer/">
+              <img
+                class="h-24 md:h-32"
+                src="./img/instagram.png"
+                alt="Follow me on Instagram"
+              />
+            </a>
+            <a href="https://twitter.com/LauraEwF">
+              <img
+                class="h-24 md:h-32"
+                src="./img/twitter.png"
+                alt="Follow me on Twitter"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/laura-ewing-ferrer-921b10128/">
+              <img
+                class="h-24 md:h-32"
+                src="./img/linked_in.png"
+                alt="Add me on LinkedIn"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </footer>
