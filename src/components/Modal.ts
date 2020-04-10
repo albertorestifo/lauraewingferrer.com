@@ -37,7 +37,8 @@ export default class Modal {
     }
 
     if (target && target instanceof HTMLImageElement) {
-      this.open(target.src);
+      const parent = target.parentElement as HTMLAnchorElement;
+      this.open(parent.href);
     }
   };
 

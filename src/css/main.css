@@ -14,7 +14,7 @@ body {
 }
 
 .gallery > div {
-  @apply shadow-xl;
+  @apply shadow-lg;
 
   padding-bottom: 100%;
   position: relative;
