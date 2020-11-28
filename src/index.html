@@ -1,362 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Laura Ewing Ferrer – Illustrator and Character designer</title>
-    <meta
-      name="description"
-      content="I’m an illustrator and storyboarder based in Madrid. I studied fine art at Florence Academy of Art and went on to get a masters in storyboarding at Lightbox academy. Since then I have worked in-house at Smile and Learn and gone on to work as a freelance artist for various documentaries, pilot series and publishing houses."
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <link rel="stylesheet" href="./css/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Laura Ewing Ferrer – Illustrator and Character designer</title>
+  <meta name="description"
+    content="I’m an illustrator and storyboarder based in Madrid. I studied fine art at Florence Academy of Art and went on to get a masters in storyboarding at Lightbox academy. Since then I have worked in-house at Smile and Learn and gone on to work as a freelance artist for various documentaries, pilot series and publishing houses." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <script src="./main.ts" defer></script>
-  </head>
-  <body class="text-gray-900 bg-gray-100">
+  <link rel="stylesheet" href="./css/main.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet" />
+
+  <script src="./main.ts" defer></script>
+</head>
+
+<body class="text-gray-900 bg-gray-100">
+  <!----------------------------------------------------------------------->
+  <!-- HOME LOGO                                                         -->
+  <!----------------------------------------------------------------------->
+  <div class="home-illustration">
+    <dib class="container mx-auto flex items-end justify-center" style="max-height: 85vh;">
+      <div class="pb-4 pl-6 flex-1 md:pb-16 md:max-w-md md:pl-16">
+        <img class="ml-auto" src="./img/signature.png" alt="Laura Ewing Ferrer art" style="min-width: 180px;" />
+      </div>
+      <div class="flex-1 flex items-end" style="flex-grow: 2; min-height: 280px; max-width: 500px;">
+        <img class="pr-4 w-64 h-full w-full object-contain" src="./img/illustration.png"
+          alt="Old man drinking a coffee, an illustration by Laura Ewing Ferrer" />
+      </div>
+    </dib>
+  </div>
+
+  <div class="container mx-auto px-4 md:px-12">
     <!----------------------------------------------------------------------->
-    <!-- HOME LOGO                                                         -->
+    <!-- NAVIGATION                                                        -->
     <!----------------------------------------------------------------------->
-    <div class="home-illustration">
-      <dib
-        class="container mx-auto flex items-end justify-center"
-        style="max-height: 85vh;"
-      >
-        <div class="pb-4 pl-6 flex-1 md:pb-16 md:max-w-md md:pl-16">
-          <img
-            class="ml-auto"
-            src="./img/signature.png"
-            alt="Laura Ewing Ferrer art"
-            style="min-width: 180px;"
-          />
-        </div>
-        <div
-          class="flex-1 flex items-end"
-          style="flex-grow: 2; min-height: 280px; max-width: 500px;"
-        >
-          <img
-            class="pr-4 w-64 h-full w-full object-contain"
-            src="./img/illustration.png"
-            alt="Old man drinking a coffee, an illustration by Laura Ewing Ferrer"
-          />
-        </div>
-      </dib>
+    <nav class="font-bold text-sm md:text-md uppercase py-4 flex justify-center border-b">
+      <a class="mx-4 text-teal-700 hover:underline" href="#artwork">
+        Artwork</a>
+      <span class="text-gray-500" aria-hidden="true">·</span>
+      <a class="mx-4 text-teal-700 hover:underline" href="#storyboards">
+        Storyboards
+      </a>
+      <span class="text-gray-500" aria-hidden="true">·</span>
+      <a class="mx-4 text-teal-700 hover:underline" href="#courses">
+        Courses
+      </a>
+      <span class="text-gray-500" aria-hidden="true">·</span>
+      <a class="mx-4 text-teal-700 hover:underline" href="./Portfolio-Laura-Ewing-Ferrer.pdf">
+        Portfolio
+      </a>
+      <span class="text-gray-500" aria-hidden="true">·</span>
+      <a class="mx-4 text-teal-700 hover:underline" href="#contact">
+        Contact Me</a>
+    </nav>
+
+    <!----------------------------------------------------------------------->
+    <!-- ARTWORK                                                           -->
+    <!----------------------------------------------------------------------->
+    <h1 id="artwork" class="mt-6 text-4xl font-bold text-teal-600">
+      Artwork
+    </h1>
+    <div class="leading-tight text-lg text-gray-700 mt-2 max-w-xl">
+      <p>
+        I’m an illustrator and storyboarder based in Madrid. I studied fine
+        art at Florence Academy of Art and went on to get a masters in
+        storyboarding at Lightbox academy.
+      </p>
+      <p class="mt-4">
+        Since then I have worked in-house at Smile and Learn and gone on to
+        work as a freelance artist for various documentaries, pilot series and
+        publishing houses.
+      </p>
     </div>
 
-    <div class="container mx-auto px-4 md:px-12">
-      <!----------------------------------------------------------------------->
-      <!-- NAVIGATION                                                        -->
-      <!----------------------------------------------------------------------->
-      <nav
-        class="font-bold text-sm md:text-md uppercase py-4 flex justify-center border-b"
-      >
-        <a class="mx-4 text-teal-700 hover:underline" href="#artwork">
-          Artwork</a
-        >
-        <span class="text-gray-500" aria-hidden="true">·</span>
-        <a class="mx-4 text-teal-700 hover:underline" href="#storyboards">
-          Storyboards
+    <div class="gallery mt-12 grid grid-cols-1 md:grid-cols-4 gap-4 js-gallery">
+      <div class="row-span-2">
+        <a href="./img/gallery/fruit.jpg">
+          <img src="./img/gallery/fruit.jpg" alt="Fruit party, an illustration by Laura Ewing Ferrer" />
         </a>
-        <span class="text-gray-500" aria-hidden="true">·</span>
-        <a class="mx-4 text-teal-700 hover:underline" href="#contact">
-          Contact Me</a
-        >
-      </nav>
-
-      <!----------------------------------------------------------------------->
-      <!-- ARTWORK                                                           -->
-      <!----------------------------------------------------------------------->
-      <h1 id="artwork" class="mt-6 text-4xl font-bold text-teal-600">
-        Artwork
-      </h1>
-      <div class="leading-tight text-lg text-gray-700 mt-2 max-w-xl">
-        <p>
-          I’m an illustrator and storyboarder based in Madrid. I studied fine
-          art at Florence Academy of Art and went on to get a masters in
-          storyboarding at Lightbox academy.
-        </p>
-        <p class="mt-4">
-          Since then I have worked in-house at Smile and Learn and gone on to
-          work as a freelance artist for various documentaries, pilot series and
-          publishing houses.
-        </p>
       </div>
+      <div class="">
+        <a href="./img/gallery/friki.jpg">
+          <img src="./img/gallery/friki.jpg"
+            alt="Hacker sitting at the computer, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="">
+        <a href="./img/gallery/washing up.jpg">
+          <img src="./img/gallery/washing up.jpg" alt="Washing up, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="">
+        <a href="./img/gallery/siluette.jpg">
+          <img src="./img/gallery/siluette.jpg" alt="Silhouette, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="col-span-2">
+        <a href="./img/gallery/expressions.jpg">
+          <img src="./img/gallery/expressions.jpg" alt="Expressions, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="row-span-2">
+        <a href="./img/gallery/westworld square.jpg">
+          <img src="./img/gallery/westworld square.jpg"
+            alt="Cowboy sitting at the bar, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="">
+        <a href="./img/gallery/tea time.jpg">
+          <img src="./img/gallery/tea time.jpg" alt="Tea time, an illustration by Laura Ewing Ferrer" /></a>
+      </div>
+      <div class="col-span-2">
+        <a href="./img/gallery/outlander_soldier.jpg">
+          <img src="./img/gallery/outlander_soldier.jpg" alt="Outlander, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="col-span-2">
+        <a href="./img/gallery/smoke.jpg">
+          <img src="./img/gallery/smoke.jpg" alt="Running trough the smoke, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="">
+        <a href="./img/gallery/maori_full.jpg">
+          <img src="./img/gallery/surfer.jpg" alt="Surfer, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="">
+        <a href="./img/gallery/bird.jpg">
+          <img src="./img/gallery/bird.jpg" alt="Bird, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="">
+        <a href="./img/gallery/roger.jpg">
+          <img src="./img/gallery/roger.jpg" alt="Roger, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="">
+        <a href="./img/gallery/doodle.jpg">
+          <img src="./img/gallery/doodle.jpg" alt="Laura dooling, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+      <div class="col-span-2">
+        <a href="./img/gallery/movie set.jpg">
+          <img src="./img/gallery/movie set.jpg" alt="Movie set, an illustration by Laura Ewing Ferrer" />
+        </a>
+      </div>
+    </div>
 
-      <div
-        class="gallery mt-12 grid grid-cols-1 md:grid-cols-4 gap-4 js-gallery"
-      >
-        <div class="row-span-2">
-          <a href="./img/gallery/fruit.jpg">
-            <img
-              src="./img/gallery/fruit.jpg"
-              alt="Fruit party, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
+    <!----------------------------------------------------------------------->
+    <!-- STORYBOARDS                                                       -->
+    <!----------------------------------------------------------------------->
+    <h1 id="storyboards" class="mt-12 text-4xl font-bold text-teal-600">
+      Storyboards
+    </h1>
+
+    <div class="mt-8">
+      <div class="shadow-xl bg-white rounded-md overflow-hidden lg:grid grid-cols-5">
+        <div class="relative col-span-3" style="padding-bottom: 56.34%;">
+          <iframe class="w-full h-full absolute" title="vimeo-player"
+            src="https://player.vimeo.com/video/376669424?title=0&byline=0&portrait=0" frameborder="0"
+            allowfullscreen></iframe>
         </div>
-        <div class="">
-          <a href="./img/gallery/friki.jpg">
-            <img
-              src="./img/gallery/friki.jpg"
-              alt="Hacker sitting at the computer, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="">
-          <a href="./img/gallery/washing up.jpg">
-            <img
-              src="./img/gallery/washing up.jpg"
-              alt="Washing up, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="">
-          <a href="./img/gallery/siluette.jpg">
-            <img
-              src="./img/gallery/siluette.jpg"
-              alt="Silhouette, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="col-span-2">
-          <a href="./img/gallery/expressions.jpg">
-            <img
-              src="./img/gallery/expressions.jpg"
-              alt="Expressions, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="row-span-2">
-          <a href="./img/gallery/westworld square.jpg">
-            <img
-              src="./img/gallery/westworld square.jpg"
-              alt="Cowboy sitting at the bar, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="">
-          <a href="./img/gallery/tea time.jpg">
-            <img
-              src="./img/gallery/tea time.jpg"
-              alt="Tea time, an illustration by Laura Ewing Ferrer"
-          /></a>
-        </div>
-        <div class="col-span-2">
-          <a href="./img/gallery/outlander_soldier.jpg">
-            <img
-              src="./img/gallery/outlander_soldier.jpg"
-              alt="Outlander, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="col-span-2">
-          <a href="./img/gallery/smoke.jpg">
-            <img
-              src="./img/gallery/smoke.jpg"
-              alt="Running trough the smoke, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="">
-          <a href="./img/gallery/maori_full.jpg">
-            <img
-              src="./img/gallery/surfer.jpg"
-              alt="Surfer, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="">
-          <a href="./img/gallery/bird.jpg">
-            <img
-              src="./img/gallery/bird.jpg"
-              alt="Bird, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="">
-          <a href="./img/gallery/roger.jpg">
-            <img
-              src="./img/gallery/roger.jpg"
-              alt="Roger, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="">
-          <a href="./img/gallery/doodle.jpg">
-            <img
-              src="./img/gallery/doodle.jpg"
-              alt="Laura dooling, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
-        </div>
-        <div class="col-span-2">
-          <a href="./img/gallery/movie set.jpg">
-            <img
-              src="./img/gallery/movie set.jpg"
-              alt="Movie set, an illustration by Laura Ewing Ferrer"
-            />
-          </a>
+        <div class="col-span-2 px-8 pt-4 pb-8 lg:p-12">
+          <h3 class="text-2xl font-bold">Pizza night</h3>
+          <p class="md:text-lg text-gray-700 mt-2">
+            A family game becomes an anchor in the life of a father battling
+            his own reality.
+          </p>
         </div>
       </div>
 
-      <!----------------------------------------------------------------------->
-      <!-- STORYBOARDS                                                       -->
-      <!----------------------------------------------------------------------->
-      <h1 id="storyboards" class="mt-12 text-4xl font-bold text-teal-600">
-        Storyboards
-      </h1>
-
-      <div class="mt-8">
-        <div
-          class="shadow-xl bg-white rounded-md overflow-hidden lg:grid grid-cols-5"
-        >
-          <div class="relative col-span-3" style="padding-bottom: 56.34%;">
-            <iframe
-              class="w-full h-full absolute"
-              title="vimeo-player"
-              src="https://player.vimeo.com/video/376669424?title=0&byline=0&portrait=0"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-span-2 px-8 pt-4 pb-8 lg:p-12">
-            <h3 class="text-2xl font-bold">Pizza night</h3>
-            <p class="md:text-lg text-gray-700 mt-2">
-              A family game becomes an anchor in the life of a father battling
-              his own reality.
-            </p>
-          </div>
+      <div class="shadow-xl mt-8 bg-white rounded-md overflow-hidden lg:grid grid-cols-5">
+        <div class="relative col-span-3" style="padding-bottom: 70.68%;">
+          <iframe class="w-full h-full absolute" title="vimeo-player"
+            src="https://player.vimeo.com/video/267305405?title=0&byline=0&portrait=0" frameborder="0"
+            allowfullscreen></iframe>
         </div>
-
-        <div
-          class="shadow-xl mt-8 bg-white rounded-md overflow-hidden lg:grid grid-cols-5"
-        >
-          <div class="relative col-span-3" style="padding-bottom: 70.68%;">
-            <iframe
-              class="w-full h-full absolute"
-              title="vimeo-player"
-              src="https://player.vimeo.com/video/267305405?title=0&byline=0&portrait=0"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-span-2 px-8 pt-4 pb-8 lg:p-12">
-            <h3 class="text-2xl font-bold">A ninja's tale that cannot fail</h3>
-            <p class="md:text-lg text-gray-700 mt-2">
-              Two sisters are ready to embarque on a new mission. Will they make
-              daddy proud?
-            </p>
-          </div>
-        </div>
-
-        <div
-          class="shadow-xl mt-8 bg-white rounded-md overflow-hidden lg:grid grid-cols-5"
-        >
-          <div class="relative col-span-3" style="padding-bottom: 70.68%;">
-            <iframe
-              class="w-full h-full absolute"
-              title="vimeo-player"
-              src="https://player.vimeo.com/video/267304974?title=0&byline=0&portrait=0"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div class="col-span-2 px-8 pt-4 pb-8 lg:p-12">
-            <h3 class="text-2xl font-bold">Story Reel</h3>
-            <p class="md:text-lg text-gray-700 mt-2">
-              A recap of some of the storyboard projects I've been involved in.
-            </p>
-          </div>
+        <div class="col-span-2 px-8 pt-4 pb-8 lg:p-12">
+          <h3 class="text-2xl font-bold">A ninja's tale that cannot fail</h3>
+          <p class="md:text-lg text-gray-700 mt-2">
+            Two sisters are ready to embarque on a new mission. Will they make
+            daddy proud?
+          </p>
         </div>
       </div>
 
-      <div class="grid grid-cols-2 mt-16">
-        <div class="md:ml-12 relative mr-8" style="top: 14px;">
-          <img
-            class="w-full"
-            src="./img/laura.png"
-            alt="Laura sipping tea"
-            style="max-width: 350px;"
-          />
+      <div class="shadow-xl mt-8 bg-white rounded-md overflow-hidden lg:grid grid-cols-5">
+        <div class="relative col-span-3" style="padding-bottom: 70.68%;">
+          <iframe class="w-full h-full absolute" title="vimeo-player"
+            src="https://player.vimeo.com/video/267304974?title=0&byline=0&portrait=0" frameborder="0"
+            allowfullscreen></iframe>
         </div>
-        <div class="flex justify-center flex-col footer-text">
-          <h1 id="contact" class="text-lg md:text-4xl font-bold">
-            Contact me
-          </h1>
-          <p class="text-md pb-4 md:text-lg text-gray-700">
-            For any inquiries please feel free to contact me. You can
-            <a class="underline" href="mailto:le.lauraewing@gmail.com"
-              >e-mail me</a
-            >
-            or follow me on instagram or twitter.
+        <div class="col-span-2 px-8 pt-4 pb-8 lg:p-12">
+          <h3 class="text-2xl font-bold">Story Reel</h3>
+          <p class="md:text-lg text-gray-700 mt-2">
+            A recap of some of the storyboard projects I've been involved in.
           </p>
         </div>
       </div>
     </div>
 
-    <footer class="bg-teal-800 md:mt-0">
-      <div class="container mx-auto px-4 md:px-12 py-8 relative">
-        <div class="grid grid-cols-2">
-          <div
-            class="flex justify-between col-span-2 lg:col-start-2 lg:col-span-1 sm:pt-2"
-          >
-            <a href="mailto:le.lauraewing@gmail.com">
-              <img
-                class="h-24 md:h-32"
-                src="./img/mail.png"
-                alt="Send me an e-mail"
-              />
-            </a>
-            <a href="https://www.instagram.com/lauraewingferrer/">
-              <img
-                class="h-24 md:h-32"
-                src="./img/instagram.png"
-                alt="Follow me on Instagram"
-              />
-            </a>
-            <a href="https://twitter.com/LauraEwF">
-              <img
-                class="h-24 md:h-32"
-                src="./img/twitter.png"
-                alt="Follow me on Twitter"
-              />
-            </a>
-            <a href="https://www.linkedin.com/in/laura-ewing-ferrer-921b10128/">
-              <img
-                class="h-24 md:h-32"
-                src="./img/linked_in.png"
-                alt="Add me on LinkedIn"
-              />
-            </a>
+    <!----------------------------------------------------------------------->
+    <!-- COURSES                                                           -->
+    <!----------------------------------------------------------------------->
+    <h1 id="courses" class="mt-12 text-4xl font-bold text-teal-600">
+      Courses
+    </h1>
+
+    <div class="mt-8">
+      <a href="https://www.domestika.org/en/courses/1642-character-creation-for-animation-shapes-color-and-expression/le_lauraewing"
+        class="block">
+        <div class="shadow-xl bg-white rounded-md overflow-hidden lg:grid grid-cols-5">
+          <div class="relative col-span-3" style="padding-bottom: 56.34%;">
+            <img class="w-full absolute" src="./img/charachter_design_course_thumb.jpg"
+              alt="Charachter design course thumbnail" />
+          </div>
+          <div class="col-span-2 px-8 pt-4 pb-8 lg:p-12">
+            <h3 class="text-2xl font-bold">Character design for animation</h3>
+            <p class="md:text-lg text-gray-700 mt-2">
+              In this course you'll learn how to design characters based on shapes,
+              colors and expressions. From inital conept to finial presentation.
+            </p>
+
+            <div
+              class="text-white py-2 px-4 border border-gray-400 rounded shadow flex flex-col items-center text-xs mt-2"
+              style="background-color: #f02d00">
+              Take this course on:
+              <img src="./img/domestika_logo.png" class="w-32" alt="Domestika" />
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-
-    <div
-      id="modal-container"
-      class="fixed top-0 left-0 w-full h-full hidden flex justify-center items-center p-4 flex-col"
-      style="background-color: rgba(0, 0, 0, 0.75);"
-      hidden
-    >
-      <div class="shadow-xl">
-        <img id="modal-image" style="max-height: 90vh;" />
-      </div>
-      <button
-        id="modal-close"
-        class="text-white font-bold text-md top-0 right-0 p-4"
-      >
-        ✖ Click anywhere to close
-      </button>
+      </a>
     </div>
 
-    <script src="https://player.vimeo.com/api/player.js"></script>
-  </body>
+    <div class="grid grid-cols-2 mt-16">
+      <div class="md:ml-12 relative mr-8" style="top: 14px;">
+        <img class="w-full" src="./img/laura.png" alt="Laura sipping tea" style="max-width: 350px;" />
+      </div>
+      <div class="flex justify-center flex-col footer-text">
+        <h1 id="contact" class="text-lg md:text-4xl font-bold">
+          Contact me
+        </h1>
+        <p class="text-md pb-4 md:text-lg text-gray-700">
+          For any inquiries please feel free to contact me. You can
+          <a class="underline" href="mailto:le.lauraewing@gmail.com">e-mail me</a>
+          or follow me on instagram or twitter.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-teal-800 md:mt-0">
+    <div class="container mx-auto px-4 md:px-12 py-8 relative">
+      <div class="grid grid-cols-2">
+        <div class="flex justify-between col-span-2 lg:col-start-2 lg:col-span-1 sm:pt-2">
+          <a href="mailto:le.lauraewing@gmail.com">
+            <img class="h-24 md:h-32" src="./img/mail.png" alt="Send me an e-mail" />
+          </a>
+          <a href="https://www.instagram.com/lauraewingferrer/">
+            <img class="h-24 md:h-32" src="./img/instagram.png" alt="Follow me on Instagram" />
+          </a>
+          <a href="https://twitter.com/LauraEwF">
+            <img class="h-24 md:h-32" src="./img/twitter.png" alt="Follow me on Twitter" />
+          </a>
+          <a href="https://www.linkedin.com/in/laura-ewing-ferrer-921b10128/">
+            <img class="h-24 md:h-32" src="./img/linked_in.png" alt="Add me on LinkedIn" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal-container"
+    class="fixed top-0 left-0 w-full h-full hidden flex justify-center items-center p-4 flex-col"
+    style="background-color: rgba(0, 0, 0, 0.75);" hidden>
+    <div class="shadow-xl">
+      <img id="modal-image" style="max-height: 90vh;" />
+    </div>
+    <button id="modal-close" class="text-white font-bold text-md top-0 right-0 p-4">
+      ✖ Click anywhere to close
+    </button>
+  </div>
+
+  <script src="https://player.vimeo.com/api/player.js"></script>
+</body>
+
 </html>
